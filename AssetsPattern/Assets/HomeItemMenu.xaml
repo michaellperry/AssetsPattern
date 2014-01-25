@@ -1,5 +1,6 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Viewbox x:Key="Home">
+    <DataTemplate x:Key="Home">
+    <Viewbox>
         <Grid Width="48" Height="48" Visibility="Visible">
             <Grid Visibility="Visible">
                 <Rectangle Fill="#FF000000" Visibility="Visible" />
@@ -18,7 +19,9 @@
             </Path>
         </Grid>
     </Viewbox>
-    <Viewbox x:Key="House">
+    </DataTemplate>
+    <DataTemplate x:Key="House">
+    <Viewbox>
         <Grid Width="48" Height="48" Visibility="Visible">
             <Grid Visibility="Visible">
                 <Rectangle Fill="#FF000000" Visibility="Visible" />
@@ -37,4 +40,5 @@
             </Path>
         </Grid>
     </Viewbox>
+    </DataTemplate>
 </ResourceDictionary>

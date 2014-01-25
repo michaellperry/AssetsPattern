@@ -59,7 +59,7 @@
                 <telerik:RadMenuItem Command="{Binding Path=HomeCommandView}" Height="23" Width="24">
                     <telerik:RadMenuItem.Header>
                         <StackPanel Orientation="Horizontal">
-                    <ContentControl Content="{StaticResource Home}"/>
+                    <ContentControl ContentTemplate="{StaticResource Home}"/>
                         </StackPanel>
                     </telerik:RadMenuItem.Header>
                     </telerik:RadMenuItem>
